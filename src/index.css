@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Import the custom font */
+@font-face {
+    font-family: 'Playpen';
+    src: url('./assets/playpen.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  /* Apply the custom font globally */
+  body {
+    /* @apply Playpen; */
+    font-family: 'Playpen', sans-serif;
+  }
